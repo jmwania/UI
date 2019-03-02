@@ -3,45 +3,47 @@
 @import url(https://fonts.googleapis.com/css?family=Space+Mono);
 
 body{
-    background-color:whitesmoke;
-    color:#000305;
-	font-size:87.5%;
+	background-color: #fff;
+	color: #000305;
+	font-size: 88.5%;
 	font-family: roboto;
 	line-height: 1.5;
 	text-align: left;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffe6e6;
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffe6e6;	
 	
 }
 li{
-	text-decoration: none;
-	float:left;
-	padding: 14px 16px;
+	text-decoration-color: greenyellow;
+	float: left;
+	padding:  14px 16px;
+	
 }
 li a{
 	text-decoration: none;
+
 }
 a{
 	text-decoration: none;
+
 }
-ul li a:hover{
-	background-color:#C0C0C0;
-	color:#FFF;
+u li a:hover{
+	background-color: #c0c0c0;
+	color: #FFF;
 	text-shadow: 1px; 1px; 1px;
 }
-
 .log-header{
 	text-align: center;
+
 }
 .log-body{
 	text-align: center;
 }
-
 input{
 	width: 30%;
 	padding: 12px 20px;
@@ -111,11 +113,8 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 
-
-
-
 .footer {
-    background-color:black;
+    background-color:blue;
     color:white;
     clear:both;
     text-align:center;
